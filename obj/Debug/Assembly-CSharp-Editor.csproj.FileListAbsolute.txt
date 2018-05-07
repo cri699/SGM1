@@ -1,0 +1,2 @@
+E:\UnityProject\CourseAssignment3\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+E:\UnityProject\CourseAssignment3\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache

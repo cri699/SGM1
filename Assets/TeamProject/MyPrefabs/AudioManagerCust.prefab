@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1371619019632292}
+  m_IsPrefabParent: 1
+--- !u!1 &1004249040598560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4825743211594308}
+  - component: {fileID: 114755691409430400}
+  - component: {fileID: 114421085174822100}
+  - component: {fileID: 114722358874935804}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1371619019632292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4931937156401558}
+  - component: {fileID: 114808787661412686}
+  m_Layer: 0
+  m_Name: AudioManagerCust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825743211594308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004249040598560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5914593, y: 1.4953426, z: -12.108926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4931937156401558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4931937156401558
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371619019632292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5914593, y: -1.4953426, z: 12.108926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4825743211594308}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114421085174822100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004249040598560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: HorizontalJ1
+  m_VerticalAxis: Vertical
+  m_SubmitButton: ConfirmBuild1
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &114722358874935804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004249040598560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55279ab4f2f97564fa63690ef3b61675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstButton: {fileID: 0}
+  cs: {fileID: 0}
+--- !u!114 &114755691409430400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004249040598560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!114 &114808787661412686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371619019632292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce1864dc0f5ffd48aa52113edcb8773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeSounds: []
+  arrowSounds:
+  - name: 
+    clip: {fileID: 8300000, guid: cf648c062b9463c429bc37e6a828af41, type: 3}
+    volume: 1
+    pitch: 0.29
+    loop: 0
+    source: {fileID: 0}
+  dieSounds:
+  - name: 
+    clip: {fileID: 8300000, guid: f4f2c5c5bf35d5645a5d424894b098ce, type: 3}
+    volume: 1
+    pitch: 0.31
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 45e37769566346c43983246a88f7070b, type: 3}
+    volume: 1
+    pitch: 0.47
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: e7b2c1d0907d1bb43affa5236ac0f7dd, type: 3}
+    volume: 1
+    pitch: 0.42
+    loop: 0
+    source: {fileID: 0}
+  footstepsSounds: []
+  cutSounds:
+  - name: 
+    clip: {fileID: 8300000, guid: 058c490e75e365b4bab02b2e2f60468c, type: 3}
+    volume: 1
+    pitch: 0.32
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: c0d53dbe57d7a8248a12ac1fa05356d0, type: 3}
+    volume: 1
+    pitch: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 30fd337e3d6b19c488c2e744b96820f6, type: 3}
+    volume: 1
+    pitch: 0.35
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: b71eb67ff6fe90d4f82debd851adc5f4, type: 3}
+    volume: 1
+    pitch: 0.61
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: efd349c36239ed54788864b0a6e19274, type: 3}
+    volume: 1
+    pitch: 1.09
+    loop: 0
+    source: {fileID: 0}
+  tauntSounds: []
+  swordSwingSounds:
+  - name: 
+    clip: {fileID: 8300000, guid: e0e093fe3b8c8e348a29e30f6bb3ccfc, type: 3}
+    volume: 1
+    pitch: 0.26
+    loop: 0
+    source: {fileID: 0}
+  hitSounds: []
+  treeHitSounds:
+  - name: 
+    clip: {fileID: 8300000, guid: 7b80eb0d3b1477144bdab3a38f077b76, type: 3}
+    volume: 1
+    pitch: 0.26
+    loop: 0
+    source: {fileID: 0}
+  fightMusic: []
+  menuMusic:
+    name: 
+    clip: {fileID: 8300000, guid: 1d74474d2c0152241b198d06ddae28a3, type: 3}
+    volume: 1
+    pitch: 0.19
+    loop: 0
+    source: {fileID: 0}

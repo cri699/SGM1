@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tree
+  - Base
+  - Player1
+  - PlayerRange
+  - enemyCollider
+  - tent
+  - Player2
+  - Player3
+  - spear
+  - Player2
+  - PlayerRange
+  - enemy
+  - enemyRange
+  - enemyCollider
+  - Player3
+  - tent
+  - Player4
+  - enemy
+  - spawnpoint
+  - floor
+  - message
+  - tower
+  - health1
+  - health2
+  - health3
+  - health4
+  - soundhelper
+  - inventory1
+  - inventory2
+  - inventory3
+  - inventory4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - floor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
